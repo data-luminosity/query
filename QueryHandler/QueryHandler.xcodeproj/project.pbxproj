@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1984D91E8C425F0004AC5E /* PrivateAnswer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1984D51E8C425F0004AC5E /* PrivateAnswer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B1984DA1E8C425F0004AC5E /* Query.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1984D61E8C425F0004AC5E /* Query.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B1984DB1E8C425F0004AC5E /* PrivateAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1984D71E8C425F0004AC5E /* PrivateAnswer.m */; };
+		6B1984DC1E8C425F0004AC5E /* Query.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1984D81E8C425F0004AC5E /* Query.m */; };
 		6B4E97521E8B8F70007DF200 /* QueryHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B4E97501E8B8F70007DF200 /* QueryHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B4E975B1E8B8F99007DF200 /* ServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E97591E8B8F99007DF200 /* ServerHandler.swift */; };
-		6B4E975F1E8B8FCC007DF200 /* QueryLibrary in Resources */ = {isa = PBXBuildFile; fileRef = 6B4E975E1E8B8FCC007DF200 /* QueryLibrary */; };
 		6B4E97691E8B90BA007DF200 /* QueryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E97681E8B90BA007DF200 /* QueryHandler.swift */; };
-		6B4E976E1E8B9167007DF200 /* PrivateAnswer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B4E976A1E8B9167007DF200 /* PrivateAnswer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B4E976F1E8B9167007DF200 /* Query.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B4E976B1E8B9167007DF200 /* Query.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B4E97701E8B9167007DF200 /* PrivateAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E976C1E8B9167007DF200 /* PrivateAnswer.m */; };
-		6B4E97711E8B9167007DF200 /* Query.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E976D1E8B9167007DF200 /* Query.m */; };
 		6B4E97731E8C2455007DF200 /* SwiftSodiumHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E97721E8C2455007DF200 /* SwiftSodiumHandler.swift */; };
 		6B4E97761E8C24C0007DF200 /* box_public.key in Resources */ = {isa = PBXBuildFile; fileRef = 6B4E97741E8C24C0007DF200 /* box_public.key */; };
 		6B4E97771E8C24C0007DF200 /* sign_public.key in Resources */ = {isa = PBXBuildFile; fileRef = 6B4E97751E8C24C0007DF200 /* sign_public.key */; };
@@ -23,19 +22,18 @@
 
 /* Begin PBXFileReference section */
 		126E07544AB2B99C4C61EC5E /* Pods_QueryHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QueryHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1984D51E8C425F0004AC5E /* PrivateAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrivateAnswer.h; path = QueryLibrary/PrivateAnswer.h; sourceTree = "<group>"; };
+		6B1984D61E8C425F0004AC5E /* Query.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Query.h; path = QueryLibrary/Query.h; sourceTree = "<group>"; };
+		6B1984D71E8C425F0004AC5E /* PrivateAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrivateAnswer.m; path = QueryLibrary/PrivateAnswer.m; sourceTree = "<group>"; };
+		6B1984D81E8C425F0004AC5E /* Query.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Query.m; path = QueryLibrary/Query.m; sourceTree = "<group>"; };
 		6B4E974D1E8B8F70007DF200 /* QueryHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QueryHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4E97501E8B8F70007DF200 /* QueryHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueryHandler.h; sourceTree = "<group>"; };
 		6B4E97511E8B8F70007DF200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B4E97591E8B8F99007DF200 /* ServerHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerHandler.swift; sourceTree = "<group>"; };
-		6B4E975E1E8B8FCC007DF200 /* QueryLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; path = QueryLibrary; sourceTree = "<group>"; };
 		6B4E97681E8B90BA007DF200 /* QueryHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryHandler.swift; sourceTree = "<group>"; };
-		6B4E976A1E8B9167007DF200 /* PrivateAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateAnswer.h; sourceTree = "<group>"; };
-		6B4E976B1E8B9167007DF200 /* Query.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Query.h; sourceTree = "<group>"; };
-		6B4E976C1E8B9167007DF200 /* PrivateAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateAnswer.m; sourceTree = "<group>"; };
-		6B4E976D1E8B9167007DF200 /* Query.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Query.m; sourceTree = "<group>"; };
 		6B4E97721E8C2455007DF200 /* SwiftSodiumHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSodiumHandler.swift; sourceTree = "<group>"; };
-		6B4E97741E8C24C0007DF200 /* box_public.key */ = {isa = PBXFileReference; lastKnownFileType = file; name = box_public.key; path = QueryHandler/box_public.key; sourceTree = "<group>"; };
-		6B4E97751E8C24C0007DF200 /* sign_public.key */ = {isa = PBXFileReference; lastKnownFileType = file; name = sign_public.key; path = QueryHandler/sign_public.key; sourceTree = "<group>"; };
+		6B4E97741E8C24C0007DF200 /* box_public.key */ = {isa = PBXFileReference; lastKnownFileType = file; name = box_public.key; path = "Signature Verification/box_public.key"; sourceTree = "<group>"; };
+		6B4E97751E8C24C0007DF200 /* sign_public.key */ = {isa = PBXFileReference; lastKnownFileType = file; name = sign_public.key; path = "Signature Verification/sign_public.key"; sourceTree = "<group>"; };
 		8FA659DC82F48CA10DCC8770 /* Pods-QueryHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueryHandler.release.xcconfig"; path = "Pods/Target Support Files/Pods-QueryHandler/Pods-QueryHandler.release.xcconfig"; sourceTree = "<group>"; };
 		AA6F39F7EF19429F248B537F /* Pods-QueryHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueryHandler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QueryHandler/Pods-QueryHandler.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,9 +62,12 @@
 		6B4E97431E8B8F70007DF200 = {
 			isa = PBXGroup;
 			children = (
+				6B1984D51E8C425F0004AC5E /* PrivateAnswer.h */,
+				6B1984D61E8C425F0004AC5E /* Query.h */,
+				6B1984D71E8C425F0004AC5E /* PrivateAnswer.m */,
+				6B1984D81E8C425F0004AC5E /* Query.m */,
 				6B4E97741E8C24C0007DF200 /* box_public.key */,
 				6B4E97751E8C24C0007DF200 /* sign_public.key */,
-				6B4E975E1E8B8FCC007DF200 /* QueryLibrary */,
 				6B4E974F1E8B8F70007DF200 /* QueryHandler */,
 				6B4E974E1E8B8F70007DF200 /* Products */,
 				3A0166C5FB6EFC82A8E0EA1C /* Pods */,
@@ -86,10 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				6B4E97721E8C2455007DF200 /* SwiftSodiumHandler.swift */,
-				6B4E976A1E8B9167007DF200 /* PrivateAnswer.h */,
-				6B4E976B1E8B9167007DF200 /* Query.h */,
-				6B4E976C1E8B9167007DF200 /* PrivateAnswer.m */,
-				6B4E976D1E8B9167007DF200 /* Query.m */,
 				6B4E97681E8B90BA007DF200 /* QueryHandler.swift */,
 				6B4E97591E8B8F99007DF200 /* ServerHandler.swift */,
 				6B4E97501E8B8F70007DF200 /* QueryHandler.h */,
@@ -113,9 +110,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B4E976F1E8B9167007DF200 /* Query.h in Headers */,
-				6B4E976E1E8B9167007DF200 /* PrivateAnswer.h in Headers */,
+				6B1984D91E8C425F0004AC5E /* PrivateAnswer.h in Headers */,
 				6B4E97521E8B8F70007DF200 /* QueryHandler.h in Headers */,
+				6B1984DA1E8C425F0004AC5E /* Query.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +179,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B4E97761E8C24C0007DF200 /* box_public.key in Resources */,
-				6B4E975F1E8B8FCC007DF200 /* QueryLibrary in Resources */,
 				6B4E97771E8C24C0007DF200 /* sign_public.key in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,10 +223,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B4E97711E8B9167007DF200 /* Query.m in Sources */,
 				6B4E975B1E8B8F99007DF200 /* ServerHandler.swift in Sources */,
+				6B1984DB1E8C425F0004AC5E /* PrivateAnswer.m in Sources */,
 				6B4E97731E8C2455007DF200 /* SwiftSodiumHandler.swift in Sources */,
-				6B4E97701E8B9167007DF200 /* PrivateAnswer.m in Sources */,
+				6B1984DC1E8C425F0004AC5E /* Query.m in Sources */,
 				6B4E97691E8B90BA007DF200 /* QueryHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
