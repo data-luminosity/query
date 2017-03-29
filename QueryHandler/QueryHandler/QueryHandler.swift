@@ -1,9 +1,9 @@
-//
-//  QueryHandler.swift
-//  SensorRetrieval
-//
-//  Created by Keshav Tadimeti on 1/10/16.
-//
+/*
+ * Copyright (c) 2016-2017,  University of California, Los Angeles
+ * Coded by Keshav Tadimeti
+ * All rights reserved.
+ *
+ */
 
 import UIKit
 import Foundation
